@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Периферика — магазин компьютерной периферии</title>
+  <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header__inner">
+    <a class="logo" href="/">
+      <img src="/static/img/logo.svg" alt="Логотип" height="32">
+      <span>ПЕРИФЕРИКА</span>
+    </a>
+
+    <nav class="nav">
+      <a href="/">Каталог</a>
+      <a href="/">Клавиатуры</a>
+      <a href="/">Мыши</a>
+      <a href="/">Наушники</a>
+      <a href="/">Мониторы</a>
+      <a href="/">Скидки</a>
+    </nav>
+
+    <div class="header__actions">
+      <form class="search" action="/" method="get">
+        <input type="search" name="q" placeholder="Поиск по каталогу" aria-label="Поиск">
+        <button type="submit">Найти</button>
+      </form>
+      <a class="cart" href="/">
+        Корзина <span class="cart__count">0</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__title">Собери своё рабочее место</h1>
+      <p class="hero__subtitle">
+        Клавиатуры, мыши, наушники и мониторы от проверенных брендов.
+        Официальная гарантия и доставка по всей России.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="/">В каталог</a>
+        <a class="btn btn--ghost" href="/">Скидки до 40%</a>
+      </div>
+      <ul class="hero__facts">
+        <li>12 000+ товаров</li>
+        <li>Гарантия 2 года</li>
+        <li>Возврат 14 дней</li>
+      </ul>
+    </div>
+    <div class="hero__image">
+      <img src="/static/img/hero-peripherals.webp" alt="Компьютерная периферия">
+    </div>
+  </div>
+</section>
+
+<section class="categories">
+  <div class="container">
+    <h2 class="section-title">Категории</h2>
+    <div class="categories__grid">
+      <a class="category-card" href="/">
+        <img src="/static/img/cat-keyboard.webp" alt="Клавиатуры">
+        <h3>Клавиатуры</h3>
+        <span>Механические, беспроводные, эргономичные</span>
+      </a>
+      <a class="category-card" href="/">
+        <img src="/static/img/cat-mouse.webp" alt="Компьютерные мыши">
+        <h3>Мыши</h3>
+        <span>Геймерские, офисные, беспроводные</span>
+      </a>
+      <a class="category-card" href="/">
+        <img src="/static/img/cat-headset.webp" alt="Наушники">
+        <h3>Наушники</h3>
+        <span>Игровые гарнитуры и студийные</span>
+      </a>
+      <a class="category-card" href="/">
+        <img src="/static/img/cat-monitor.webp" alt="Мониторы">
+        <h3>Мониторы</h3>
+        <span>Игровые, офисные, с высоким refresh rate</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="featured">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Хиты продаж</h2>
+      <a class="section-link" href="/">Весь каталог →</a>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <a class="product-card__img" href="/">
+          <img src="/static/img/no-photo.webp" alt="Товар" loading="lazy">
+          <span class="badge badge--sale">−20%</span>
+        </a>
+        <div class="product-card__body">
+          <span class="product-card__brand">Бренд</span>
+          <h3 class="product-card__name"><a href="/">Название товара</a></h3>
+          <div class="product-card__rating" aria-label="Рейтинг">
+            <span class="stars" data-rating="4"></span>
+            <small>0 отзывов</small>
+          </div>
+          <div class="product-card__footer">
+            <span class="price">0 ₽</span>
+            <button class="btn btn--small" type="button">В корзину</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <a class="product-card__img" href="/">
+          <img src="/static/img/no-photo.webp" alt="Товар" loading="lazy">
+        </a>
+        <div class="product-card__body">
+          <span class="product-card__brand">Бренд</span>
+          <h3 class="product-card__name"><a href="/">Название товара</a></h3>
+          <div class="product-card__rating" aria-label="Рейтинг">
+            <span class="stars" data-rating="5"></span>
+            <small>0 отзывов</small>
+          </div>
+          <div class="product-card__footer">
+            <span class="price">0 ₽</span>
+            <button class="btn btn--small" type="button">В корзину</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <a class="product-card__img" href="/">
+          <img src="/static/img/no-photo.webp" alt="Товар" loading="lazy">
+          <span class="badge badge--sale">−15%</span>
+        </a>
+        <div class="product-card__body">
+          <span class="product-card__brand">Бренд</span>
+          <h3 class="product-card__name"><a href="/">Название товара</a></h3>
+          <div class="product-card__rating" aria-label="Рейтинг">
+            <span class="stars" data-rating="4"></span>
+            <small>0 отзывов</small>
+          </div>
+          <div class="product-card__footer">
+            <span class="price">0 ₽</span>
+            <button class="btn btn--small" type="button">В корзину</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <a class="product-card__img" href="/">
+          <img src="/static/img/no-photo.webp" alt="Товар" loading="lazy">
+        </a>
+        <div class="product-card__body">
+          <span class="product-card__brand">Бренд</span>
+          <h3 class="product-card__name"><a href="/">Название товара</a></h3>
+          <div class="product-card__rating" aria-label="Рейтинг">
+            <span class="stars" data-rating="5"></span>
+            <small>0 отзывов</small>
+          </div>
+          <div class="product-card__footer">
+            <span class="price">0 ₽</span>
+            <button class="btn btn--small" type="button">В корзину</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="brands">
+  <div class="container">
+    <h2 class="section-title">Популярные бренды</h2>
+    <div class="brands__row">
+      <a class="brand-card" href="/"><img src="/static/img/brand-1.svg" alt="Бренд"></a>
+      <a class="brand-card" href="/"><img src="/static/img/brand-2.svg" alt="Бренд"></a>
+      <a class="brand-card" href="/"><img src="/static/img/brand-3.svg" alt="Бренд"></a>
+      <a class="brand-card" href="/"><img src="/static/img/brand-4.svg" alt="Бренд"></a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta__inner">
+    <h2>Подпишись и получи скидку 10% на первый заказ</h2>
+    <form class="subscribe" action="/" method="post">
+      <input type="email" name="email" placeholder="Ваш e-mail" required>
+      <button class="btn btn--primary" type="submit">Подписаться</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <span class="footer__logo">ПЕРИФЕРИКА</span>
+      <p>Магазин компьютерной периферии для работы и игр.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Каталог</h4>
+      <a href="/">Все товары</a>
+      <a href="/">Распродажа</a>
+      <a href="/">Бренды</a>
+    </div>
+    <div class="footer__col">
+      <h4>Покупателям</h4>
+      <a href="/">Доставка и оплата</a>
+      <a href="/">Возврат и гарантия</a>
+      <a href="/">Контакты</a>
+    </div>
+    <div class="footer__col">
+      <h4>Связь</h4>
+      <a href="tel:+78001234567">8 800 123-45-67</a>
+      <a href="mailto:shop@example.com">shop@example.com</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <small>© 2026 Периферика. Все права защищены.</small>
+  </div>
+</footer>
+
+<script src="/static/js/main.js" defer></script>
+</body>
+</html>
